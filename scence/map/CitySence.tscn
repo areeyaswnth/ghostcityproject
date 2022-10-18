@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scence/map/Map.tscn" type="PackedScene" id=1]
+[ext_resource path="res://script/map/CitySence.gd" type="Script" id=2]
+[ext_resource path="res://scence/Spawn.tscn" type="PackedScene" id=5]
+
+[node name="CitySence" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Map" parent="." instance=ExtResource( 1 )]
+scale = Vector2( 2, 2 )
+
+[node name="Bullet" type="Node2D" parent="."]
+
+[node name="Ghost" type="Node2D" parent="."]
+
+[node name="Spawn" parent="." instance=ExtResource( 5 )]
+
+[node name="effect" type="Node2D" parent="."]

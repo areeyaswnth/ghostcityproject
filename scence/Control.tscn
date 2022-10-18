@@ -1,0 +1,163 @@
+[gd_scene load_steps=23 format=2]
+
+[ext_resource path="res://script/Control.gd" type="Script" id=1]
+[ext_resource path="res://font/MadouFutoMaruGothic-d9Xo7.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFontData" id=25]
+hinting = 0
+font_path = "res://font/MadouFutoMaruGothic-d9Xo7.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+font_data = SubResource( 25 )
+
+[sub_resource type="DynamicFont" id=9]
+
+[sub_resource type="Image" id=26]
+data = {
+"data": PoolByteArray( 0, 0, 0, 10, 0, 0, 0, 26, 0, 0, 0, 38, 0, 0, 0, 41, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 41, 0, 0, 0, 38, 0, 0, 0, 26, 0, 0, 0, 10, 0, 0, 0, 26, 0, 0, 0, 72, 0, 0, 0, 101, 0, 0, 0, 109, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 109, 0, 0, 0, 101, 0, 0, 0, 72, 0, 0, 0, 26, 0, 0, 0, 38, 0, 0, 0, 102, 45, 44, 47, 245, 72, 70, 74, 254, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 72, 70, 74, 254, 45, 44, 47, 245, 0, 0, 0, 102, 0, 0, 0, 38, 0, 0, 0, 42, 0, 0, 0, 109, 72, 70, 74, 255, 64, 62, 66, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 64, 62, 66, 255, 72, 70, 74, 255, 0, 0, 0, 109, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 110, 76, 74, 78, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 76, 74, 78, 255, 0, 0, 0, 110, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 110, 76, 74, 78, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 76, 74, 78, 255, 0, 0, 0, 110, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 110, 76, 74, 78, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 76, 74, 78, 255, 0, 0, 0, 110, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 110, 76, 74, 78, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 76, 74, 78, 255, 0, 0, 0, 110, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 110, 76, 74, 78, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 76, 74, 78, 255, 0, 0, 0, 110, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 110, 76, 74, 78, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 76, 74, 78, 255, 0, 0, 0, 110, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 110, 76, 74, 78, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 76, 74, 78, 255, 0, 0, 0, 110, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 110, 76, 74, 78, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 76, 74, 78, 255, 0, 0, 0, 110, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 109, 72, 70, 74, 255, 64, 62, 66, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 56, 54, 58, 255, 64, 62, 66, 255, 72, 70, 74, 255, 0, 0, 0, 109, 0, 0, 0, 42, 0, 0, 0, 38, 0, 0, 0, 102, 45, 44, 47, 245, 72, 70, 74, 254, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 76, 74, 78, 255, 72, 70, 74, 254, 45, 44, 47, 245, 0, 0, 0, 102, 0, 0, 0, 38, 0, 0, 0, 26, 0, 0, 0, 72, 0, 0, 0, 101, 0, 0, 0, 109, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 110, 0, 0, 0, 109, 0, 0, 0, 101, 0, 0, 0, 72, 0, 0, 0, 26, 0, 0, 0, 10, 0, 0, 0, 26, 0, 0, 0, 38, 0, 0, 0, 41, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 42, 0, 0, 0, 41, 0, 0, 0, 38, 0, 0, 0, 26, 0, 0, 0, 10 ),
+"format": "RGBA8",
+"height": 16,
+"mipmaps": false,
+"width": 16
+}
+
+[sub_resource type="ImageTexture" id=4]
+flags = 4
+flags = 4
+image = SubResource( 26 )
+size = Vector2( 16, 16 )
+
+[sub_resource type="StyleBoxTexture" id=5]
+content_margin_left = 0.0
+content_margin_right = 0.0
+content_margin_top = 0.0
+content_margin_bottom = 0.0
+texture = SubResource( 4 )
+region_rect = Rect2( 0, 0, 16, 16 )
+margin_left = 4.0
+margin_right = 4.0
+margin_top = 4.0
+margin_bottom = 4.0
+
+[sub_resource type="Image" id=27]
+data = {
+"data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 56, 51, 233, 39, 255, 39, 255, 39, 255, 39, 255, 51, 233, 64, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 51, 233, 36, 244, 32, 255, 32, 255, 32, 255, 32, 255, 36, 244, 51, 233, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 255, 32, 255, 32, 255, 32, 255, 32, 255, 32, 255, 32, 255, 39, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 255, 32, 255, 32, 255, 32, 255, 32, 255, 32, 255, 32, 255, 39, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 255, 32, 255, 32, 255, 32, 255, 32, 255, 32, 255, 32, 255, 39, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 255, 32, 255, 32, 255, 32, 255, 32, 255, 32, 255, 32, 255, 39, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 51, 233, 36, 244, 32, 255, 32, 255, 32, 255, 32, 255, 36, 244, 51, 233, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 56, 51, 233, 39, 255, 39, 255, 39, 255, 39, 255, 51, 233, 64, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"format": "LumAlpha8",
+"height": 16,
+"mipmaps": false,
+"width": 16
+}
+
+[sub_resource type="ImageTexture" id=7]
+flags = 4
+flags = 4
+image = SubResource( 27 )
+size = Vector2( 16, 16 )
+
+[sub_resource type="StyleBoxTexture" id=8]
+content_margin_left = 2.0
+content_margin_right = 2.0
+content_margin_top = 1.0
+content_margin_bottom = 1.0
+texture = SubResource( 7 )
+region_rect = Rect2( 0, 0, 16, 16 )
+margin_left = 6.0
+margin_right = 6.0
+margin_top = 6.0
+margin_bottom = 6.0
+
+[sub_resource type="DynamicFont" id=12]
+resource_local_to_scene = true
+size = 21
+font_data = ExtResource( 2 )
+
+[sub_resource type="Theme" id=13]
+default_font = SubResource( 12 )
+ProgressBar/colors/font_color = Color( 0.94, 0.94, 0.94, 1 )
+ProgressBar/colors/font_color_shadow = Color( 0, 0, 0, 1 )
+ProgressBar/fonts/font = SubResource( 9 )
+ProgressBar/styles/bg = SubResource( 5 )
+ProgressBar/styles/fg = SubResource( 8 )
+
+[sub_resource type="DynamicFontData" id=3]
+font_path = "res://font/MadouFutoMaruGothic-d9Xo7.ttf"
+
+[sub_resource type="DynamicFont" id=14]
+size = 15
+font_data = SubResource( 3 )
+
+[sub_resource type="DynamicFontData" id=15]
+font_path = "res://font/MadouFutoMaruGothic-d9Xo7.ttf"
+
+[sub_resource type="DynamicFont" id=6]
+size = 31
+font_data = SubResource( 15 )
+
+[sub_resource type="Theme" id=16]
+default_font = SubResource( 6 )
+
+[sub_resource type="DynamicFontData" id=19]
+font_path = "res://font/MadouFutoMaruGothic-d9Xo7.ttf"
+
+[sub_resource type="DynamicFont" id=20]
+size = 40
+font_data = SubResource( 19 )
+
+[sub_resource type="DynamicFontData" id=23]
+font_path = "res://font/MadouFutoMaruGothic-d9Xo7.ttf"
+
+[sub_resource type="DynamicFont" id=24]
+size = 30
+font_data = SubResource( 23 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+show_behind_parent = true
+margin_right = 180.0
+margin_bottom = 51.0
+custom_fonts/font = SubResource( 2 )
+text = "死 の 都 "
+
+[node name="skil" type="Label" parent="."]
+margin_left = 697.0
+margin_top = 569.0
+margin_right = 955.0
+margin_bottom = 601.0
+theme = SubResource( 13 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 14 )
+align = 2
+
+[node name="HP" type="Label" parent="."]
+margin_left = 813.0
+margin_top = 539.0
+margin_right = 982.0
+margin_bottom = 606.0
+theme = SubResource( 16 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_outline_modulate = Color( 1, 1, 1, 1 )
+text = "HP : 000
+"
+
+[node name="score" type="Label" parent="."]
+margin_left = 672.0
+margin_top = 1.0
+margin_right = 950.0
+margin_bottom = 86.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 20 )
+text = "SCORE : 0"
+
+[node name="coin" type="Label" parent="."]
+margin_left = 708.0
+margin_top = 42.0
+margin_right = 905.0
+margin_bottom = 73.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 24 )
+text = "COIN : 000000"

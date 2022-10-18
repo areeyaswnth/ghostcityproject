@@ -1,0 +1,46 @@
+Name: 死 の 都  Ghost City Project
+Description: เกมrpg ผู้เล่นจะต้องเดินปราบภูติผีทั่วเมือง และค่อยๆฟาร์มเหรียญไปอัพระดับดาเมจของตัวเอง เพื่อไปเคลียร์บอสในห้อง3ห้อง 
+Genre: Indie , Top Down Shooter , rpg 
+Link: https://aprill-ms.itch.io/ghost-city-project
+Credit:
+	Sprite:
+		player-วาดเอง
+		ghost -วาดเอง
+		map:
+			house1 -https://petricakegames.itch.io/frost-chill-dungeon-tileset
+			house2 -https://0x72.itch.io/dungeontileset-ii
+			house3 -https://jukaio.itch.io/dungeons-and-chickens
+			City -https://itch.io/s/23202/the-japan-bundle-1
+			Shrine -https://www.deviantart.com/peekychew/art/Shrine-in-the-Woods-495634275
+			House -https://www.deviantart.com/mustafa505/art/Japanese-House-702468206
+			Trade -https://limezu.itch.io/moderninteriors
+		GUI:
+			GUI -https://crusenho.itch.io/
+		Effect:
+			player bullet -https://rustybulletgames.itch.io/colored-explosions-asset-pack
+			ghost bullet -https://xyezawr.itch.io/free-pixel-effects-pack-14-mini-magick-shoots-4
+			ghost_dead / lightning / Tornado https://free-game-assets.itch.io/11-free-pixel-art-explosion-sprites
+			ghost hurt -https://nyknck.itch.io/effectlt
+			wind -https://nyknck.itch.io/wind
+			ghost3_ef -https://nyknck.itch.io/pixel-art-effectfx010 / https://nyknck.itch.io/fx062
+			ATK player -https://nyknck.itch.io/brushedfxseries003
+			
+		Other:
+			Ice -https://www.deviantart.com/aragods/art/ice-cube-pixel-art-814837490
+	Pic:
+		player -วาดเอง
+		background -https://ansimuz.itch.io/cyberpunk-street-environment
+	Sound
+		bgm:
+			bgm1 -https://www.youtube.com/watch?v=pK91fQIFbuU
+			bgm2 -https://www.youtube.com/watch?v=jVd-gf0r_zY
+		sfx:
+			sfx -https://mixkit.co/free-sound-effects/
+	Font
+		japan / eng -https://www.cufonfonts.com/font/madou-futo-maru-gothic
+		thai / eng -https://www.f0nt.com/release/zf-2ndpixelus/
+	Other	
+		banner -https://wallpaperaccess.com/japanese-pixel-art
+Note:
+    ไม่อยากเปิดpublcเพราะรู้สึกguiltyที่ไม่ได้ใช้ภาพวาดเอง/ภาพที่ตั้งใจแจก TT ถ้าเล่นไปแล้วอาจจะเจอบั๊คบ้างเล็กน้อยนะ  	
+  pass : 1234

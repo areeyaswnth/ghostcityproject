@@ -1,0 +1,522 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Sprite/gui/gui_paper.png" type="Texture" id=1]
+[ext_resource path="res://pic/Tutorial.png" type="Texture" id=2]
+[ext_resource path="res://script/Tutorial.gd" type="Script" id=3]
+
+[sub_resource type="TileSet" id=1]
+0/name = "gui_paper.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 32, 32, 96, 96 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "gui_paper.png 1"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 32, 160, 96, 32 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "gui_paper.png 2"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 32, 64, 96, 32 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+3/name = "gui_paper.png 3"
+3/texture = ExtResource( 1 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 224, 32, 96, 96 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape_one_way = false
+3/shape_one_way_margin = 0.0
+3/shapes = [  ]
+3/z_index = 0
+4/name = "gui_paper.png 4"
+4/texture = ExtResource( 1 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 224, 64, 96, 32 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
+4/shapes = [  ]
+4/z_index = 0
+5/name = "gui_paper.png 5"
+5/texture = ExtResource( 1 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 224, 160, 96, 32 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 0, 0 )
+5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape_one_way = false
+5/shape_one_way_margin = 0.0
+5/shapes = [  ]
+5/z_index = 0
+6/name = "gui_paper.png 6"
+6/texture = ExtResource( 1 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 32, 96, 96, 32 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 0, 0 )
+6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape_one_way = false
+6/shape_one_way_margin = 0.0
+6/shapes = [  ]
+6/z_index = 0
+7/name = "gui_paper.png 7"
+7/texture = ExtResource( 1 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 224, 96, 96, 32 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 0, 0 )
+7/navigation_offset = Vector2( 0, 0 )
+7/shape_offset = Vector2( 0, 0 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+7/shape_one_way = false
+7/shape_one_way_margin = 0.0
+7/shapes = [  ]
+7/z_index = 0
+8/name = "gui_paper.png 8"
+8/texture = ExtResource( 1 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 384, 96, 96, 32 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 0, 0 )
+8/navigation_offset = Vector2( 0, 0 )
+8/shape_offset = Vector2( 0, 0 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+8/shape_one_way = false
+8/shape_one_way_margin = 0.0
+8/shapes = [  ]
+8/z_index = 0
+9/name = "gui_paper.png 9"
+9/texture = ExtResource( 1 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 480, 224, 96, 32 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 0, 0 )
+9/navigation_offset = Vector2( 0, 0 )
+9/shape_offset = Vector2( 0, 0 )
+9/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+9/shape_one_way = false
+9/shape_one_way_margin = 0.0
+9/shapes = [  ]
+9/z_index = 0
+10/name = "gui_paper.png 10"
+10/texture = ExtResource( 1 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 480, 288, 32, 32 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 0, 0 )
+10/navigation_offset = Vector2( 0, 0 )
+10/shape_offset = Vector2( 0, 0 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+10/shape_one_way = false
+10/shape_one_way_margin = 0.0
+10/shapes = [  ]
+10/z_index = 0
+11/name = "gui_paper.png 11"
+11/texture = ExtResource( 1 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 480, 256, 64, 32 )
+11/tile_mode = 0
+11/occluder_offset = Vector2( 0, 0 )
+11/navigation_offset = Vector2( 0, 0 )
+11/shape_offset = Vector2( 0, 0 )
+11/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+11/shape_one_way = false
+11/shape_one_way_margin = 0.0
+11/shapes = [  ]
+11/z_index = 0
+12/name = "gui_paper.png 12"
+12/texture = ExtResource( 1 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 32, 64, 32, 32 )
+12/tile_mode = 0
+12/occluder_offset = Vector2( 0, 0 )
+12/navigation_offset = Vector2( 0, 0 )
+12/shape_offset = Vector2( 0, 0 )
+12/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+12/shape_one_way = false
+12/shape_one_way_margin = 0.0
+12/shapes = [  ]
+12/z_index = 0
+13/name = "gui_paper.png 13"
+13/texture = ExtResource( 1 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 32, 64, 32, 32 )
+13/tile_mode = 0
+13/occluder_offset = Vector2( 0, 0 )
+13/navigation_offset = Vector2( 0, 0 )
+13/shape_offset = Vector2( 0, 0 )
+13/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+13/shape_one_way = false
+13/shape_one_way_margin = 0.0
+13/shapes = [  ]
+13/z_index = 0
+14/name = "gui_paper.png 14"
+14/texture = ExtResource( 1 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 64, 64, 32, 32 )
+14/tile_mode = 0
+14/occluder_offset = Vector2( 0, 0 )
+14/navigation_offset = Vector2( 0, 0 )
+14/shape_offset = Vector2( 0, 0 )
+14/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+14/shape_one_way = false
+14/shape_one_way_margin = 0.0
+14/shapes = [  ]
+14/z_index = 0
+15/name = "gui_paper.png 15"
+15/texture = ExtResource( 1 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 64, 96, 32, 32 )
+15/tile_mode = 0
+15/occluder_offset = Vector2( 0, 0 )
+15/navigation_offset = Vector2( 0, 0 )
+15/shape_offset = Vector2( 0, 0 )
+15/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+15/shape_one_way = false
+15/shape_one_way_margin = 0.0
+15/shapes = [  ]
+15/z_index = 0
+
+[sub_resource type="DynamicFontData" id=2]
+font_path = "res://font/MadouFutoMaruGothic-d9Xo7.ttf"
+
+[sub_resource type="DynamicFont" id=3]
+font_data = SubResource( 2 )
+
+[sub_resource type="DynamicFontData" id=4]
+antialiased = false
+font_path = "res://font/ZF#2ndPixelus.ttf"
+
+[sub_resource type="DynamicFont" id=5]
+size = 15
+outline_color = Color( 0, 0, 0, 1 )
+font_data = SubResource( 4 )
+
+[sub_resource type="DynamicFontData" id=6]
+antialiased = false
+font_path = "res://font/ZF#2ndPixelus.ttf"
+
+[sub_resource type="DynamicFont" id=7]
+size = 24
+outline_color = Color( 0, 0, 0, 1 )
+font_data = SubResource( 6 )
+
+[sub_resource type="DynamicFontData" id=8]
+antialiased = false
+font_path = "res://font/MadouFutoMaruGothic-d9Xo7.ttf"
+
+[sub_resource type="DynamicFont" id=9]
+size = 30
+font_data = SubResource( 8 )
+
+[node name="Tutorial" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Tutorial" type="Sprite" parent="."]
+position = Vector2( 738, 168 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 2 )
+
+[node name="TileMap" type="TileMap" parent="."]
+scale = Vector2( 2, 2 )
+tile_set = SubResource( 1 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( 12, 1, 0, 131073, 11, 0, 196620, -2147483645, 0, 262145, 10, 0, 262147, 10, 0, 262149, 9, 0, 393217, 10, 0, 393219, 10, 0, 393221, 9, 0, 458775, 536870913, 0, 524289, 10, 0, 524291, 10, 0, 524293, 9, 0, 655361, 10, 0, 655363, 10, 0, 655365, 9, 0, 655372, -1610612736, 0, 655377, -1610612734, 0, 655378, -1610612734, 0, 655379, -1610612734, 0, 655380, -1610612734, 0, 655381, -1610612734, 0, 655383, -1610612734, 0, 655385, -1610612734, 0, 655387, -2147483642, 0, 786433, 536870923, 0, 786437, 9, 0, 917505, 536870923, 0, 917509, 9, 0, 983052, -536870899, 0, 983054, -536870900, 0, 983055, -536870900, 0, 983056, -536870900, 0, 983057, -536870900, 0, 983058, -536870900, 0, 983059, -536870900, 0, 983060, -536870900, 0, 983061, -536870900, 0, 983062, -536870900, 0, 983063, -536870900, 0, 983064, -536870900, 0, 983065, -536870900, 0, 983066, -536870900, 0, 983067, 536870925, 0, 1048577, 536870922, 0, 1048579, 536870922, 0, 1048581, 536870921, 0 )
+
+[node name="key" type="Node2D" parent="TileMap"]
+
+[node name="Label" type="Label" parent="TileMap/key"]
+margin_left = 26.5
+margin_top = 40.0
+margin_right = 66.5
+margin_bottom = 56.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "KEYS"
+
+[node name="Label3" type="Label" parent="TileMap/key"]
+margin_left = 27.0
+margin_top = 105.0
+margin_right = 67.0
+margin_bottom = 121.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "W"
+
+[node name="Label2" type="Label" parent="TileMap/key"]
+margin_left = 27.0
+margin_top = 71.5
+margin_right = 67.0
+margin_bottom = 87.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "S"
+
+[node name="Label4" type="Label" parent="TileMap/key"]
+margin_left = 27.0
+margin_top = 135.5
+margin_right = 67.0
+margin_bottom = 151.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "A"
+
+[node name="Label5" type="Label" parent="TileMap/key"]
+margin_left = 27.0
+margin_top = 168.5
+margin_right = 67.0
+margin_bottom = 184.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "D"
+
+[node name="Label6" type="Label" parent="TileMap/key"]
+margin_left = 56.5
+margin_top = 103.5
+margin_right = 96.5
+margin_bottom = 119.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "↑"
+
+[node name="Label7" type="Label" parent="TileMap/key"]
+margin_left = 57.5
+margin_top = 71.5
+margin_right = 97.5
+margin_bottom = 87.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "↓ "
+
+[node name="Label8" type="Label" parent="TileMap/key"]
+margin_left = 56.0
+margin_top = 134.5
+margin_right = 96.0
+margin_bottom = 150.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "←"
+
+[node name="Label9" type="Label" parent="TileMap/key"]
+margin_left = 56.0
+margin_top = 166.5
+margin_right = 96.0
+margin_bottom = 182.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "→"
+
+[node name="Label10" type="Label" parent="TileMap/key"]
+margin_left = 29.0
+margin_top = 199.0
+margin_right = 69.0
+margin_bottom = 215.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "SPACE"
+
+[node name="Label11" type="Label" parent="TileMap/key"]
+margin_left = 55.0
+margin_top = 265.5
+margin_right = 95.0
+margin_bottom = 281.5
+rect_scale = Vector2( 0.8, 0.8 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "ESC"
+
+[node name="Label12" type="Label" parent="TileMap/key"]
+margin_left = 27.0
+margin_top = 264.0
+margin_right = 67.0
+margin_bottom = 280.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "X"
+
+[node name="Label13" type="Label" parent="TileMap/key"]
+margin_left = 113.5
+margin_top = 102.0
+margin_right = 157.5
+margin_bottom = 126.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "เดินขึ้น"
+
+[node name="Label14" type="Label" parent="TileMap/key"]
+margin_left = 113.5
+margin_top = 71.0
+margin_right = 153.5
+margin_bottom = 87.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "เดินลง"
+
+[node name="Label15" type="Label" parent="TileMap/key"]
+margin_left = 97.5
+margin_top = 133.5
+margin_right = 161.5
+margin_bottom = 149.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "เดินไปทางซ้าย"
+
+[node name="Label16" type="Label" parent="TileMap/key"]
+margin_left = 99.0
+margin_top = 166.0
+margin_right = 162.0
+margin_bottom = 182.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "เดินไปทางขวา"
+
+[node name="Label19" type="Label" parent="TileMap/key"]
+margin_left = 86.0
+margin_top = 231.5
+margin_right = 195.0
+margin_bottom = 247.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "เข้าไปในlocation"
+
+[node name="Label17" type="Label" parent="TileMap/key"]
+margin_left = 113.0
+margin_top = 198.0
+margin_right = 153.0
+margin_bottom = 214.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "โจมตี"
+
+[node name="Label18" type="Label" parent="TileMap/key"]
+margin_left = 28.0
+margin_top = 230.5
+margin_right = 68.0
+margin_bottom = 246.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "ENTER"
+
+[node name="Label20" type="Label" parent="TileMap/key"]
+margin_left = 110.5
+margin_top = 261.5
+margin_right = 150.5
+margin_bottom = 277.5
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "จบเกม"
+
+[node name="Label17" type="Label" parent="."]
+margin_left = 399.0
+margin_top = 335.0
+margin_right = 1184.0
+margin_bottom = 446.0
+rect_scale = Vector2( 1.5, 1.5 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "mapปกติ : city map
+playerจะเดินสำรวจตามบ้านต่างๆ แล้วจะขึ้นโลเคขั่นต่างๆตามสถานที่ๆไป
+ หากขึ้น”Not found”แสดงว่าไม่มีภูติผีที่กำลังตามหา 
+หากขึ้นเป็นอย่างอื่นจะสามารถกดENTERเพื่อเข้าไปได้ดังนี้
+Trade:เอาไว้สำหรับซื้อของอัพความสามารถ
+Shrine:สามารถเพิ่มค่าHPแบบสุ่มตั้งแต่5-25
+???:ห้องที่มีพลังงานของภูติผีอยู่ แต่ไม่สามารถทราบได้ว่ามีสิ่งใดอยู่ "
+
+[node name="Label" type="Label" parent="."]
+margin_left = 410.0
+margin_top = 121.0
+margin_right = 604.0
+margin_bottom = 280.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 7 )
+text = "ภูติผี ใน city map 
+:ผีร่ม ผีโคมไฟ
+(สามารถดูสกิลของ
+ภูติผีระดับBossได
+้ในCollection)
+"
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 746.0
+margin_top = 229.0
+margin_right = 1105.0
+margin_bottom = 388.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 7 )
+text = "วิธีการจบเกม
+ clearได้หมดทุกบอส"
+
+[node name="Label3" type="Label" parent="."]
+margin_left = 419.0
+margin_top = 16.0
+margin_right = 483.0
+margin_bottom = 32.0
+rect_scale = Vector2( 2, 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "TUTORIAL"
+
+[node name="menu" type="Button" parent="."]
+margin_left = 45.0
+margin_top = 17.0
+margin_right = 147.0
+margin_bottom = 54.0
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 9 )
+text = " MENU "
+
+[connection signal="pressed" from="menu" to="." method="_on_menu_pressed"]
